@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.boxs-container{
+    display: flex;
+    background-color: antiquewhite;
+    gap: 10px;
+}
+
+.box{
+    
+    border: 1px solid black;
+}
+.login-btn:hover {
+  background-color: darkgreen;
+}
